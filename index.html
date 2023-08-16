@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Skill Radar Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Skill Radar Form</h1>
+	<div class="content-container">
+		<form id="skillForm">
+			<div class="skill-group">
+				<label for="skill1">Dynamic to Meditative</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			<div class="skill-group">
+				<label for="skill2">Catharsis to Prudence</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			<div class="skill-group">
+				<label for="skill3">Pain to Comfort</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			<div class="skill-group">
+				<label for="skill4">Intimacy to Distance</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			<div class="skill-group">
+				<label for="skill5">Dignity to Degredation</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			<div class="skill-group">
+				<label for="skill6">Pleasure to Inhibition</label>
+				<div class="skill-level">
+					<button type="button" class="skill-point" data-value="1">1</button>
+					<button type="button" class="skill-point" data-value="2">2</button>
+					<button type="button" class="skill-point" data-value="3">3</button>
+					<button type="button" class="skill-point" data-value="4">4</button>
+					<button type="button" class="skill-point" data-value="5">5</button>
+				</div>
+			</div>
+			
+			<button type="submit">Submit</button>
+		</form>
+			
+		<div class="chart-container">
+		<div id="radarChart">
+			<canvas></canvas>
+		</div>
+		</div>
+	</div>	
+    <script src="script.js"></script>
+</body>
+</html>
