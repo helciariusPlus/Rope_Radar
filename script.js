@@ -35,7 +35,7 @@ function displayRadarChart(skillLabels, skillData) {
         data: {
             labels: skillLabels,
             datasets: [{
-                label: 'Skill Level',
+                label: 'Comfort Level',
                 data: skillData,
                 backgroundColor: averageColor, // Set the average color as the background color
                 borderColor: 'rgba(75, 192, 192, 1)',
